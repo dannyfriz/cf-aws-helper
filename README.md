@@ -1,5 +1,7 @@
 # AWS CloudFormation Stack CLI Helper
 
+Acknowledgment: Augusto Toledo, thank you for giving me part of your time to be a better professional.
+
 An opinionated Command Line utility that aims to help and speed up the development activities associated with the construction of AWS CloudFormation Stacks.
 
 ## Common use cases
@@ -30,7 +32,7 @@ Or you can setup one manually:
 - Create a `templates` folder and put a `main.yml` template inside
 - Create a [stack metadata file](#the-stack-metadata) in the root project folder
 - Create a `config/default.js` file [with the corresponding configuration values](#the-configuration-file)
-- `npm install https://github.com/atpollmann/cf-cli-helper`
+- `npm install https://github.com/dcfriz/cf-aws-helper.git`
 - Run `./node_modules/.bin/cf-cli`
 
 ## Workflow rationale
