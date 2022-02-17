@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atpollmann/cf-cli-helper"
+    "url": "github.com:dcfriz/cf-aws-helper.git"
   },
   "description": "AWS CloudFormation Stack CLI Helper",
-  "author": "Augusto Toledo",
+  "author": "Danny Cornejo",
   "scripts": {
     "test": "jest",
     "cf-cli": "node app/cli",
